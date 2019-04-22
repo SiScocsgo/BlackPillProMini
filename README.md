@@ -8,6 +8,7 @@ The Blackpill Pro Mini is a 13x7 pinhole sized STM32 LQFP48 breakout board. It c
 * 72Mhz clockspeed
 * 64kB of flash memory
 * 3.3v logic
+* 5v tolerant pins
 
 ### 1.2) Configurable IO
 * 30 IO Pins
@@ -31,7 +32,7 @@ The hardware on the circuit board are packed very tightly together, as the board
 ### 3.1) Beginners
 #### 3.1.1) Software
 For simple programming of the default hardware, the stm32duino plugin for the Arduino IDE can be used.  
-In order to get this running you will first need to install the Arduino IDE, which can be found [Here]()
+In order to get this running you will first need to install the Arduino IDE, which can be found [Here](https://www.arduino.cc/en/Main/Software#download)
 #### 3.1.2) Hardware
 Regardless of the bootloader on your Blackpill Pro Mini, you can always program it via the SWD port using an STLink V2. This is likely how you will program your Blackpill for the first time. From here you can install different bootloaders, such as the Maple Serial Driver, which lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [Here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port)
 
@@ -42,4 +43,7 @@ This is also the case for development for non F103 cpu equipped Blackpills.
 A great tutorial for setting up VSCode with the compiler by hbfsrobotics can be found here:  
 [hbfsrobotics.com](http://hbfsrobotics.com/blog/configuring-vs-code-arm-development-stm32cubemx)
 #### 3.2.2) Hardware
+Regardless of the bootloader on your Blackpill Pro Mini, you can always program it via the SWD port using an STLink V2. This is likely how you will program your Blackpill for the first time. Depending on your use case, you are able to implement reprogramming of it in many different ways. The most common methods of reprogramming are SWD, Serial, and USB.
+The Maple Serial Driver, lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [Here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port)
+
 

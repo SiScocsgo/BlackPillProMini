@@ -3,6 +3,9 @@
 ## 1) Introduction
 The Blackpill Pro Mini is a 13x7 pinhole sized STM32 LQFP48 breakout board. It can support many classes of STM32 MCUs, such as L,F0,F1,and F3. The default version is equipped with an STM32F103C8T6.
 
+### Influence
+This project is heavily based on the [STM32 Blue Pill](https://wiki.stm32duino.com/index.php?title=Blue_Pill). The main difference here is the *better* pcb layout of the BlackPill Pro Mini.
+
 ### Main Features
 * ARM® 32-bit Cortex®-M3 CPU Core
 * 72MHz clockspeed

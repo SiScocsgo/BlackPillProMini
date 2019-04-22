@@ -5,7 +5,7 @@ The Blackpill Pro Mini is a 13x7 pinhole sized STM32 LQFP48 breakout board. It c
 
 ### Main Features
 * ARM® 32-bit Cortex®-M3 CPU Core
-* 72Mhz clockspeed
+* 72MHz clockspeed
 * 64kB of flash memory
 * 3.3v logic
 * 5v tolerant pins
@@ -48,4 +48,12 @@ In order to get this running you will first need to install the Arduino IDE, whi
 ## 4) Hardware Modifications
 The Blackpill Pro Mini was built to be modified for special use cases.
 ### 4.1) Low power
-   teaw6yduas  
+For low power applications there are many ways in which the Blackpill can be improved. Here is a short list of the most useful modifications.
+* Swapping to STM32L0 CPU
+* Adding the 32.768kHz crystal
+* Removing the LEDs
+* Removing the linear voltage regulator.
+* Replacing 10k Ohm resistors for 100k Ohm resistors
+
+### 4.2) Specification Improvement
+Most, if not all STM32 MCUs are pin compatible. This means that the Blackpill Pro Mini supports most LQFP48 packaged STM32s. So for more flash memory or for more processing power, you can simply swap the microcontroller for one that suits your needs.

@@ -48,4 +48,4 @@ In order to get this running you will first need to install the Arduino IDE, whi
 ## 4) Hardware Modifications
 The Blackpill Pro Mini was built to be modified for special use cases.
 ### 4.1) Low power
-⋅⋅⋅teaw6yduas
+   teaw6yduas

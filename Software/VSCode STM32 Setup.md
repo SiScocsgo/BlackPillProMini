@@ -1,7 +1,7 @@
 #Open Settings (JSON)
-
+```JSON
 "cortex-debug.armToolchainPath": "${env:VSARM}\\armcc\\bin\\"
-
+```
 Edit Projects, (Add project file)
 
 {

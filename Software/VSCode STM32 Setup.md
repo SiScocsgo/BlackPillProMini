@@ -1,8 +1,8 @@
-#Open Settings (JSON)
+# Open Settings (JSON)
 ```JSON
 "cortex-debug.armToolchainPath": "${env:VSARM}\\armcc\\bin\\"
 ```
-Edit Projects, (Add project file)
+# Edit Projects, (Add project file)
 ```JSON
 {
     "name": "template_F3",
@@ -11,7 +11,7 @@ Edit Projects, (Add project file)
     "group": ""
   },
 ```
-#C/CPP: Edit Configurations
+# C/CPP: Edit Configurations
 ```JSON
 {
     "configurations": [
@@ -63,11 +63,9 @@ Edit Projects, (Add project file)
     "version": 4
 }
 ```
-#Tasks, Configure Tasks (create JSON from template: other)
+# Tasks, Configure Tasks (create JSON from template: other)
 ```JSON
 {
-    // See https://go.microsoft.com/fwlink/?LinkId=733558
-    // for the documentation about the tasks.json format
     "version": "2.0.0",
     "tasks": [
         {
@@ -99,12 +97,9 @@ Edit Projects, (Add project file)
     ]
 }
 ```
-#Launch: Debug: Open launch.json, Cortex Debug
+# Launch: Debug: Open launch.json, Cortex Debug
 ```JSON
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
     {

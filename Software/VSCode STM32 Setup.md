@@ -3,16 +3,16 @@
 "cortex-debug.armToolchainPath": "${env:VSARM}\\armcc\\bin\\"
 ```
 Edit Projects, (Add project file)
-
+```JSON
 {
     "name": "template_F3",
     "rootPath": "c:\\Users\\cristi.dbr\\Desktop\\STM32_Projects\\template_F3",
     "paths": [],
     "group": ""
   },
-  
+```
 #C/CPP: Edit Configurations
-
+```JSON
 {
     "configurations": [
     {
@@ -62,9 +62,9 @@ Edit Projects, (Add project file)
     ],
     "version": 4
 }
-
+```
 #Tasks, Configure Tasks (create JSON from template: other)
-
+```JSON
 {
     // See https://go.microsoft.com/fwlink/?LinkId=733558
     // for the documentation about the tasks.json format
@@ -98,9 +98,9 @@ Edit Projects, (Add project file)
         }
     ]
 }
-
+```
 #Launch: Debug: Open launch.json, Cortex Debug
-
+```JSON
 {
     // Use IntelliSense to learn about possible attributes.
     // Hover to view descriptions of existing attributes.
@@ -120,4 +120,4 @@ Edit Projects, (Add project file)
         }
     ]
 }
-
+```

@@ -4,12 +4,20 @@
 ```
 # Edit Projects, (Add project file)
 ```JSON
-{
+[
+  {
     "name": "template_F3",
     "rootPath": "c:\\Users\\cristi.dbr\\Desktop\\STM32_Projects\\template_F3",
     "paths": [],
     "group": ""
   },
+  {
+    "name": "blink",
+    "rootPath": "c:\\Users\\cristi.dbr\\Desktop\\STM32_Projects\\blink",
+    "paths": [],
+    "group": ""
+  }
+]
 ```
 # C/CPP: Edit Configurations
 ```JSON

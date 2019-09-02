@@ -1,7 +1,7 @@
 # BlackPill Pro Mini
 
 ## 1) Introduction
-The Blackpill Pro Mini is a 13x7 pinhole sized STM32 LQFP48 breakout board. It can support many classes of STM32 MCUs, such as L,F0,F1,and F3. The default version is equipped with an [STM32F103C8T6](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf).
+The Blackpill Pro Mini is a 13x7 pinhole sized STM32 LQFP48 breakout board. It can support many classes of STM32 MCUs, such as L,F0,F1,and F3. The default version is equipped with an [STM32F103C8T6](https://www.st.com/resource/en/datasheet/stm32f103c8.pdf "STM32F103 Datasheet").
 
 ### Influence
 This project is heavily based on the [STM32 Blue Pill](https://wiki.stm32duino.com/index.php?title=Blue_Pill). The main differences here are the *better* pcb layout and the smaller footprint.

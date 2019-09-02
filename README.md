@@ -37,8 +37,8 @@ The hardware on the circuit board are packed very tightly together, as the board
 For simple programming of the default hardware, the stm32duino plugin for the Arduino IDE can be used.  
 In order to get this running you will first need to install the Arduino IDE, which can be found [Here](https://www.arduino.cc/en/Main/Software#download)
 #### 3.1.2) Hardware
-Regardless of the bootloader on your Blackpill Pro Mini, you can always program it via the SWD port using an STLink V2. This is likely how you will program your Blackpill for the first time. From here you can install different bootloaders, such as the Maple Serial Driver, which lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port) .
-You can find suitable STLink V2 clones [here](https://www.ebay.com/sch/i.html?_from=R40&_nkw=stlink+v2&_sacat=0&rt=nc&LH_BIN=1) .
+Regardless of the bootloader on your Blackpill Pro Mini, you can always program it via the SWD port using an STLink V2. This is likely how you will program your Blackpill for the first time. From here you can install different bootloaders, such as the Maple Serial Driver, which lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [Here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port).
+You can find suitable STLink V2 clones [Here](https://www.ebay.com/sch/i.html?_from=R40&_nkw=stlink+v2&_sacat=0&rt=nc&LH_BIN=1).
 
 
 ### 3.2) Advanced

@@ -1,7 +1,8 @@
 # Modifying VSCode setup to use OB/J Link instead of STLink V2
 
 ### 1. Install the [J Link Software](https://www.segger.com/downloads/jlink/#J-LinkSoftwareAndDocumentationPack)
-### 2. Modify or create the following files:
+### 2. Add "C:\Program Files (x86)\SEGGER\JLink" to the "Path" System Variable
+### 3. Modify or create the following files:
 
 ## keybindings.json
 

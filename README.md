@@ -34,7 +34,7 @@ The hardware on the circuit board are packed very tightly together, as the board
 ## 3) Programming Guide
 ### 3.1) Beginners
 #### 3.1.1) Software
-For simple programming of the default hardware, the stm32duino plugin for the Arduino IDE can be used.  
+For simple programming of the default hardware, the [stm32duino](https://github.com/stm32duino/Arduino_Core_STM32) plugin for the Arduino IDE can be used.  
 In order to get this running you will first need to install the Arduino IDE, which can be found [Here](https://www.arduino.cc/en/Main/Software#download)
 #### 3.1.2) Hardware
 Regardless of the bootloader on your Blackpill Pro Mini, you can always program it via the SWD port using an STLink V2. This is likely how you will program your Blackpill for the first time. From here you can install different bootloaders, such as the Maple Serial Driver, which lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [Here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port).
@@ -48,7 +48,7 @@ This is also the case for development for non F103 cpu equipped Blackpills.
 A great tutorial for setting up VSCode with the compiler by hbfsrobotics can be found here: [hbfsrobotics.com](http://hbfsrobotics.com/blog/configuring-vs-code-arm-development-stm32cubemx)
 #### 3.2.2) Hardware
 Regardless of the bootloader on your Blackpill Pro Mini, you can always program it via the SWD port using an STLink V2. This is likely how you will program your Blackpill for the first time. Depending on your use case, you are able to implement reprogramming of it in many different ways. The most common methods of reprogramming are SWD, Serial, and USB.
-The Maple Serial Driver, lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [Here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port)
+The Maple Serial Driver, lets you program the Blackpill via the USB port. A tutorial for this installation process can be found [Here](https://circuitdigest.com/microcontroller-projects/programming-stm32f103c8-board-using-usb-port) The options for hardware SWD programmers are the [STLink V2](https://www.ebay.com/sch/i.html?_from=R40&_nkw=stlink+v2&_sacat=0&rt=nc&LH_BIN=1) and the [OB/J Link](https://www.ebay.com/sch/i.html?_from=R40&_nkw=j+link&_sacat=0&rt=nc&LH_BIN=1). The OB/J Link requires slight modification of the VSCode setup, which can be found in /Software/VSCode STM32 JLink Mod.txt.
 
 ## 4) Hardware Modifications
 The Blackpill Pro Mini was built to be modified for special use cases.
